@@ -1,0 +1,13 @@
+.bg-dashboard {
+  background-image: linear-gradient(purple, blue);
+  width: 200px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bar-showhide {
+    visibility: hidden;
+  }
+  .responsif-colomn {
+    display: grid;
+  }
+}
