@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto">
     <div
-      class="flex px-3.5 py-2 font-bold text-sm md:flex-row mx-auto bg-white w-full max-w-sm rounded-t overflow-hidden shadow-lg"
+      class="flex px-3.5 py-2 font-bold text-sm md:flex-row mx-auto bg-white w-full max-w-sm rounded-t overflow-hidden"
     >
       <div
         v-for="head in thead"
@@ -49,7 +49,7 @@ export default {
 
 <style>
 .bg-orange-700 {
-  background-color: rgb(234 88 12);
+  background-color: #f26c4f;
   color: #ffffff;
 }
 </style>
