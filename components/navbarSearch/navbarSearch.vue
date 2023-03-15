@@ -3,7 +3,7 @@
     class="relative flex w-full flex-wrap items-center justify-between bg-white py-3 text-neutral-500 shadow-lg lg:flex-wrap lg:justify-start"
     data-te-navbar-ref
   >
-    <div class="flex w-full flex-wrap items-center justify-between px-6">
+    <div class="flex w-full flex-wrap items-center justify-between px-4">
       <nav class="bg-grey-light w-full rounded-md" aria-label="breadcrumb">
         <ol class="list-reset flex flex-col md:flex-row justify-between">
           <li class="flex items-center justify-center md:justify-start">
@@ -50,7 +50,7 @@
               type="date"
               name="timepicker"
             />
-            <button class="bg-gray-400 px-3 py-1.5">OK</button>
+            <button class="w-20 bg-gray-400 px-1 py-1.5">OK</button>
           </li>
         </ol>
       </nav>

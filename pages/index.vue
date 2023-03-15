@@ -9,7 +9,7 @@
     </section>
     <section>
       <div
-        class="py-3 flex flex-col justify-center md:flex-row md:grid gap-10 grid-cols-3"
+        class="py-3 px-6 flex flex-col justify-center md:flex-row md:grid gap-10 grid-cols-3"
       >
         <div class="basis-1/4">
           <card-chart :title="first.title" :img="first.src" />
