@@ -7,7 +7,7 @@
       width="16"
       height="16"
       fill="currentColor"
-      class="bi bi-geo-alt-fill h-6 w-6 text-gray-400 cursor-pointer"
+      class="bi bi-geo-alt-fill h-6 w-6 text-gray-400 cursor-pointer mt-1"
       viewBox="0 0 16 16"
     >
       <path
@@ -16,10 +16,17 @@
     </svg>
     <select
       id="location"
-      class="text-gray-400 border border-gray-400 rounded"
+      class="text-gray-400 border border-gray-400 rounded-md ml-2.5"
       name=""
     >
       <option value="null">Chennai South</option>
     </select>
   </div>
 </template>
+
+<style scoped>
+select {
+  width: fit-content;
+  height: 30px;
+}
+</style>

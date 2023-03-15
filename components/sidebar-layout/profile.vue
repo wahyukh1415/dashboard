@@ -4,11 +4,17 @@
       class="flex items-center h-full px-2 hover:bg-gray-100 z-10 text-gray-400 overflow-hidden focus:outline-none"
       @click="dropdownOpen = !dropdownOpen"
     >
-      <img
-        class="w-8 h-8 object-cover rounded-full"
-        src="~/assets/images/male.svg"
-      />
-      <svg
+      <div class="flex">
+        <img
+          class="w-8 h-8 object-cover rounded-full"
+          src="~/assets/images/male.svg"
+        />
+        <div class="text-left ml-2.5">
+          <p class="text-xs">Master</p>
+          <p class="text-xs">Venkatesan</p>
+        </div>
+      </div>
+      <!-- <svg
         v-if="!dropdownOpen"
         viewBox="0 0 9 9"
         fill="none"
@@ -55,7 +61,7 @@
             />
           </clipPath>
         </defs>
-      </svg>
+      </svg> -->
     </button>
     <div
       v-show="dropdownOpen"

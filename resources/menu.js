@@ -1,6 +1,6 @@
 module.exports = [
   {
-    path: '/dashboard',
+    path: '/',
     caption: 'Dashboard',
     icon: 'feather/grid',
     exact: true,

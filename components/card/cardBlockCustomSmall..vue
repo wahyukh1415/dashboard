@@ -1,32 +1,34 @@
 <template>
   <div
-    class="mx-auto mt-5 pb-1 bg-white w-full max-w-sm rounded overflow-hidden shadow-lg"
+    class="font-bold mx-auto mt-5 pb-2 bg-white w-full max-w-sm rounded overflow-hidden shadow-lg"
   >
-    <div class="font-bold text-sm px-1 py-1 mx-2">
+    <div class="font-bold text-sm border-b px-3.5 py-2">
       {{ thirdBlockTitle ? thirdBlockTitle : '-' }}
     </div>
     <hr />
     <div class="flex flex-col justify-center mx-2 md:flex-row">
-      <div class="w-full md:w-2/12 h-full border p-2 m-1">
-        <p class="label-xs">{{ tableBlockThird[0].label }}</p>
+      <div class="w-full md:w-2/12 h-full border px-2 pb-2 pt-1 m-1">
+        <p class="label-xs mb-1">{{ tableBlockThird[0].label }}</p>
         <h4 class="text-center">{{ tableBlockThird[0].value }}</h4>
       </div>
-      <div class="bg-orange-700 w-full md:w-2/12 h-full border p-2 m-1">
-        <p class="label-xs">{{ tableBlockThird[1].label }}</p>
+      <div
+        class="bg-orange-700 w-full md:w-2/12 h-full border px-2 pb-2 pt-1 m-1"
+      >
+        <p class="label-xs mb-1">{{ tableBlockThird[1].label }}</p>
         <h4 class="text-center">{{ tableBlockThird[1].value }}</h4>
       </div>
-      <div class="w-full md:w-8/12 h-full border p-2 m-1">
-        <p class="label-xs">{{ tableBlockThird[2].label }}</p>
+      <div class="w-full md:w-8/12 h-full border px-2 pb-2 pt-1 m-1">
+        <p class="label-xs mb-1">{{ tableBlockThird[2].label }}</p>
         <h4 class="text-center">{{ tableBlockThird[2].value }}</h4>
       </div>
     </div>
     <div class="flex flex-col justify-center mx-2 md:flex-row">
-      <div class="w-full md:w-2/3 h-full border p-2 m-1">
-        <p class="label-xs">{{ tableBlockThird[3].label }}</p>
+      <div class="w-full md:w-2/3 h-full border px-2 pb-2 pt-1 m-1">
+        <p class="label-xs mb-1">{{ tableBlockThird[3].label }}</p>
         <h4 class="text-center">{{ tableBlockThird[3].value }}</h4>
       </div>
-      <div class="w-full md:w-1/3 h-full border p-2 m-1">
-        <p class="label-xs">{{ tableBlockThird[4].label }}</p>
+      <div class="w-full md:w-1/3 h-full border px-2 pb-2 pt-1 m-1">
+        <p class="label-xs mb-1">{{ tableBlockThird[4].label }}</p>
         <h4 class="text-center">{{ tableBlockThird[4].value }}</h4>
       </div>
     </div>

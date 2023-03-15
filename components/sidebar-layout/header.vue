@@ -17,12 +17,12 @@
     </div>
 
     <div class="flex items-center h-full py-4">
-      <notification class="mx-2" />
-      <location class="mx-2" />
-      <profile class="mx-2" />
+      <notification />
+      <location class="ml-5" />
+      <profile class="ml-5" />
       <svg-icon
-        icon="feather/menu"
-        class="h-6 w-6 text-gray-400 cursor-pointer"
+        icon="feather/align-right"
+        class="h-6 w-6 text-gray-400 cursor-pointer ml-4"
       />
     </div>
   </header>

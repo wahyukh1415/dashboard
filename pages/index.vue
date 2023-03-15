@@ -1,20 +1,20 @@
 <template>
   <!-- <Tutorial /> -->
   <main class="container">
-    <header class="my-6">
+    <header class="mb-2.5">
       <header-corousel />
     </header>
-    <section>
+    <section class="mb-10">
       <navbar-search />
     </section>
     <section>
       <div
-        class="pt-8 px-6 flex flex-col justify-center md:flex-row md:grid gap-10 grid-cols-3"
+        class="pt-8 px-6 flex flex-col justify-center md:flex-row md:grid gap-6 grid-cols-3"
       >
         <div class="basis-1/4">
-          <card-chart :title="first.title" :img="first.src" />
-          <card-chart :title="second.title" :img="second.src" />
-          <card-chart :title="third.title" :img="third.src" />
+          <card-chart :type="'donuts'" :title="first.title" :img="first.src" />
+          <card-chart :type="'bar'" :title="second.title" :img="second.src" />
+          <card-chart :type="'bar'" :title="third.title" :img="third.src" />
         </div>
         <div class="basis-1/4">
           <table-custom :thead="tableHead" :tbody="tableData" />

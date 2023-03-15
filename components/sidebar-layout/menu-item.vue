@@ -22,17 +22,13 @@
           v-if="item.icon === 'feather/dot'"
           :icon="icon ? icon : item.icon"
           :class="
-            active(vm) || hasActive(vm)
-              ? 'fill-active h-1 w-1 mr-2 ml-6'
-              : iconClass
+            active(vm) || hasActive(vm) ? ' h-1 w-1 mr-2 ml-6' : iconClass
           "
         />
         <svg-icon
           v-else-if="item.icon !== undefined || icon"
           :icon="icon ? icon : item.icon"
-          :class="
-            active(vm) || hasActive(vm) ? 'fill-active h-6 w-6 mr-2' : iconClass
-          "
+          :class="active(vm) || hasActive(vm) ? ' h-6 w-6 mr-2' : iconClass"
         />
       </div>
       <span

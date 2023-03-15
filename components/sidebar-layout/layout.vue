@@ -29,7 +29,7 @@
       <!-- End of Header -->
 
       <!-- Main -->
-      <main id="main" class="bg-default flex-1 overflow-x-hidden">
+      <main id="main" class="bg-container bg-default flex-1 overflow-x-hidden">
         <div class="container mx-auto px-8 px-lg-1">
           <Nuxt />
         </div>
@@ -86,5 +86,8 @@ body {
 }
 #header {
   background: #ffffff;
+}
+.bg-container {
+  background: #f0f0fa;
 }
 </style>
