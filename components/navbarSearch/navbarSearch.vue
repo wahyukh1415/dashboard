@@ -16,7 +16,7 @@
             <div class="flex inline-flex items-center justify-center">
               <button
                 type="button"
-                class="btn-sort bg-color-global text-white inline-block border-primary px-2 py-2 pb-[6px] text-xs font-medium uppercase leading-normal text-primary"
+                class="btn-sort active bg-color-global text-white inline-block border-primary px-2 py-2 pb-[6px] text-xs font-medium uppercase leading-normal text-primary"
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
@@ -24,7 +24,7 @@
               </button>
               <button
                 type="button"
-                class="btn-sort -ml-0.5 inline-block border-t border-b border-primary px-2 py-2 pb-[6px] text-xs font-medium uppercase leading-normal text-primary"
+                class="btn-sort inline-block border-t border-b border-primary px-2 py-2 text-xs font-medium uppercase leading-normal text-primary"
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
@@ -32,7 +32,7 @@
               </button>
               <button
                 type="button"
-                class="btn-sort -ml-0.5 inline-block border-t border-b border-r border-primary px-2 py-2 pb-[6px] text-xs font-medium uppercase leading-normal text-primary"
+                class="btn-sort inline-block border-t border-b border-r border-primary px-2 py-2 text-xs font-medium uppercase leading-normal text-primary"
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
@@ -74,16 +74,19 @@
 select {
   width: 150px;
   height: 38px;
-  color: #d8d8d8;
+  color: #bcbcbc;
   border: 0.7px solid #d8d8d8;
 }
 option {
-  color: #d8d8d8;
+  color: #bcbcbc;
 }
 
 button {
-  color: #d8d8d8;
-  height: 38px;
+  color: #bcbcbc;
+}
+
+button.active {
+  color: white;
 }
 
 button.search {
