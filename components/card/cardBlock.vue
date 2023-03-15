@@ -43,11 +43,11 @@
       </div>
     </div>
     <div class="flex flex-col justify-center mx-2 md:flex-row">
-      <div class="h-full w-full md:w-4/12 border p-2 m-1">
+      <div class="h-full w-full md:w-2/12 border p-2 m-1">
         <p class="label-xs">{{ tableBlockFirst[8].label }}</p>
         <h4 class="text-center">{{ tableBlockFirst[8].value }}</h4>
       </div>
-      <div class="h-full w-full md:w-4/12 border p-2 m-1">
+      <div class="h-full w-full md:w-2/12 border p-2 m-1">
         <p class="label-xs">{{ tableBlockFirst[9].label }}</p>
         <h4 class="text-center">{{ tableBlockFirst[9].value }}</h4>
       </div>

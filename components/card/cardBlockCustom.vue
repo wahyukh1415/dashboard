@@ -53,7 +53,7 @@ export default {
   },
   data() {
     return {
-      secondBlockTitle: 'Floor 2, Block B',
+      secondBlockTitle: 'Floor 1, Block B',
       tableBlockSecond: [
         {
           id: 1,
