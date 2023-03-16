@@ -103,7 +103,7 @@ export default {
 
 <style>
 .label-xs {
-  font-size: 6px;
+  font-size: 10px;
 }
 .bg-orange-700 {
   background-color: rgb(234 88 12);

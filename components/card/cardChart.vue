@@ -2,8 +2,11 @@
   <div
     class="mx-auto mb-11 bg-white w-full max-w-sm rounded overflow-hidden shadow-lg"
   >
-    <div class="font-bold text-sm border-b px-3.5 py-2">
-      {{ title ? title : '-' }}
+    <div class="flex justify-between font-bold text-sm border-b px-3.5 py-2">
+      <p>
+        {{ title ? title : '-' }}
+      </p>
+      <p v-if="title === 'Zone Humidity'">55</p>
     </div>
     <!-- <img class="w-full" :src="img" :alt="title ? title : '-'" /> -->
     <div v-if="type === 'donuts'">

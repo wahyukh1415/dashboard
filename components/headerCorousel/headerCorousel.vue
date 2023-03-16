@@ -9,7 +9,9 @@
       class="py-5 px-2.5 border-b-4 border-purple-800 border-1 flex justify-center items-center w-full white sm:w-fit xl:w-full h-9"
       role="presentation"
     >
-      <p class="whitespace-nowrap">Dashboard Overview</p>
+      <p class="font-bold text-md text-xl color-logo whitespace-nowrap">
+        Dashboard Overview
+      </p>
     </li>
     <li
       class="flex justify-center items-center w-full sm:w-fit xl:w-full h-9"

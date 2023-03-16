@@ -5,13 +5,19 @@
       @click="dropdownOpen = !dropdownOpen"
     >
       <div class="flex">
-        <img
+        <!-- <img
           class="w-8 h-8 object-cover rounded-full"
           src="~/assets/images/male.svg"
-        />
-        <div class="text-left ml-2.5">
+        /> -->
+        <div class="profile-pic">
+          <svg-icon
+            icon="feather/user"
+            class="h-6 w-6 text-white cursor-pointer mx-auto mt-1"
+          />
+        </div>
+        <div class="text-left ml-2.5 mt-1">
           <p class="text-xs">Master</p>
-          <p class="text-xs">Venkatesan</p>
+          <p class="mt-0 text-xs">Venkatesan</p>
         </div>
       </div>
       <!-- <svg
@@ -180,19 +186,19 @@ export default {
   methods: {
     logout() {
       // alert('Logout')
-      localStorage.removeItem('user')
-      localStorage.removeItem('assets')
-      localStorage.removeItem('licenses')
-      localStorage.removeItem('token')
-      localStorage.removeItem('tableHeadLicense')
-      localStorage.removeItem('tableHead')
-      localStorage.removeItem('statusOptions')
-      localStorage.removeItem('categoryOptions')
-      localStorage.removeItem('locationsOptions')
-      localStorage.removeItem('companyOptions')
       // this.$router.push({path: '/'})
       window.location.href = process.env.BASE_URL + '/'
     },
   },
 }
 </script>
+
+<style>
+.profile-pic {
+  background-color: #8c8c8c;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  color: white;
+}
+</style>

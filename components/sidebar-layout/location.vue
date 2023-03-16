@@ -7,7 +7,7 @@
       width="16"
       height="16"
       fill="currentColor"
-      class="bi bi-geo-alt-fill h-6 w-6 text-gray-400 cursor-pointer mt-1"
+      class="bi bi-geo-alt-fill h-6 w-6 text-gray-400 cursor-pointer mt-0.5"
       viewBox="0 0 16 16"
     >
       <path

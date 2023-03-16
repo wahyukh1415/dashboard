@@ -3,7 +3,9 @@
     class="font-bold mx-auto mt-5 pb-2 bg-white w-full max-w-sm rounded overflow-hidden shadow-lg"
   >
     <div class="font-bold text-sm border-b px-3.5 py-2">
-      {{ thirdBlockTitle ? thirdBlockTitle : '-' }}
+      <p>
+        {{ thirdBlockTitle ? thirdBlockTitle : '-' }}
+      </p>
     </div>
     <hr />
     <div class="flex flex-col justify-center mx-2 md:flex-row">
@@ -96,7 +98,7 @@ export default {
 
 <style>
 .label-xs {
-  font-size: 6px;
+  font-size: 10px;
 }
 .bg-orange-700 {
   background-color: rgb(234 88 12);
