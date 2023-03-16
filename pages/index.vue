@@ -1,15 +1,15 @@
 <template>
   <!-- <Tutorial /> -->
-  <main class="container">
-    <header class="mb-2.5">
+  <div class="container mx-auto px-8 px-lg-1">
+    <section class="mb-2.5">
       <header-corousel />
-    </header>
+    </section>
     <section class="mb-10">
       <navbar-search />
     </section>
     <section>
       <div
-        class="pt-8 px-6 flex flex-col justify-center md:flex-row md:grid gap-6 grid-cols-3"
+        class="pt-8 px-6 flex flex-col justify-center md:flex-row md:grid gap-10 grid-cols-3"
       >
         <div class="basis-1/4">
           <card-chart :type="'donuts'" :title="first.title" :img="first.src" />
@@ -32,11 +32,10 @@
         </div>
       </div>
     </section>
-  </main>
+  </div>
 </template>
 
 <script>
-// import SvgIcon from '../components/SvgIcon.vue'
 import headerCorousel from '../components/headerCorousel/headerCorousel.vue'
 import navbarSearch from '../components/navbarSearch/navbarSearch.vue'
 import cardChart from '../components/card/cardChart.vue'
@@ -47,7 +46,6 @@ import CardBlockCustomSmall from '../components/card/cardBlockCustomSmall..vue'
 export default {
   name: 'IndexPage',
   components: {
-    // SvgIcon,
     cardChart,
     headerCorousel,
     navbarSearch,
@@ -242,3 +240,9 @@ export default {
   },
 }
 </script>
+
+<style>
+/* .apexcharts-legend{
+  display: none !important;
+} */
+</style>

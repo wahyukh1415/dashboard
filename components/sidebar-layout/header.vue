@@ -18,11 +18,11 @@
 
     <div class="flex items-center h-full py-4">
       <notification />
-      <location class="ml-5" />
-      <profile class="ml-5" />
+      <location class="ml-8" />
+      <profile class="ml-8" />
       <svg-icon
         icon="feather/align-right"
-        class="h-6 w-6 text-gray-400 cursor-pointer ml-4"
+        class="h-6 w-6 text-gray-400 cursor-pointer ml-8"
       />
     </div>
   </header>

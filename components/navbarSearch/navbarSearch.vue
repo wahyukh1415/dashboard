@@ -12,7 +12,7 @@
             >
           </li>
           <li class="flex flex-col md:flex-row items-center justify-end">
-            <label class="mr-5 color-sort-navbar" for="sortby"> Sort By:</label>
+            <label class="mr-5 color-sort-navbar" for="sortby">Sort By:</label>
             <div class="flex inline-flex items-center justify-center my-1">
               <button
                 type="button"

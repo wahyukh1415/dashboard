@@ -10,7 +10,7 @@
     <div class="flex items-baseline mt-5">
       <div class="flex items-center">
         <!-- <LogoVer2 class="h-6 w-22 mx-6" /> -->
-        <span class="text-white text-2xl mx-6 font-semibold">Logo Hide</span>
+        <span class="text-white text-2xl mx-10 font-semibold">Logo Hide</span>
       </div>
     </div>
     <Menu class="mt-10" :items="menuItems" @click="$emit('click')" />

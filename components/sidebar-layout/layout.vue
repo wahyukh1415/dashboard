@@ -30,9 +30,7 @@
 
       <!-- Main -->
       <main id="main" class="bg-container bg-default flex-1 overflow-x-hidden">
-        <div class="container mx-auto px-8 px-lg-1">
-          <Nuxt />
-        </div>
+        <Nuxt />
       </main>
       <!-- End of Main -->
     </div>

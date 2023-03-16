@@ -1,12 +1,12 @@
 <template>
   <ul
     id="myTab"
-    class="flex mt-8 flex-col md:flex-row -mb-px text-sm font-medium text-center"
+    class="flex items-center mt-8 flex-col md:flex-row -mb-px text-sm font-medium text-center"
     data-tabs-toggle="#myTabContent"
     role="tablist"
   >
     <li
-      class="py-5 px-2.5 border-b-4 border-purple-800 border-1 flex justify-center items-center w-full white sm:w-fit xl:w-full h-9"
+      class="py-6 px-2.5 border-b-4 border-purple-600 border-1 flex justify-center items-center w-full white sm:w-fit xl:w-full h-9"
       role="presentation"
     >
       <p class="font-bold text-md text-xl color-logo whitespace-nowrap">
@@ -82,7 +82,7 @@
     >
       <svg-icon
         icon="feather/linkedin"
-        class="h-6 w-6 text-gray-400 cursor-pointer color-logo"
+        class="h-6 w-6 text-gray-400 cursor-pointer text-gray-300"
       />
     </li>
     <li
@@ -91,7 +91,7 @@
     >
       <svg-icon
         icon="feather/package"
-        class="h-6 w-6 text-gray-400 cursor-pointer color-logo"
+        class="h-6 w-6 text-gray-400 cursor-pointer text-gray-300"
       />
     </li>
     <li
@@ -100,7 +100,7 @@
     >
       <svg-icon
         icon="feather/pocket"
-        class="h-6 w-6 text-gray-400 cursor-pointe color-logo"
+        class="h-6 w-6 text-gray-400 cursor-pointe text-gray-300"
       />
     </li>
     <li
@@ -109,7 +109,7 @@
     >
       <svg-icon
         icon="feather/slack"
-        class="h-6 w-6 text-gray-400 cursor-pointer color-logo"
+        class="h-6 w-6 text-gray-400 cursor-pointer text-gray-300"
       />
     </li>
   </ul>

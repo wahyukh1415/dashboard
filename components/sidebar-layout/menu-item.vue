@@ -3,7 +3,7 @@
   <li>
     <nuxt-link
       :title="item.caption"
-      class="flex items-center justify-between py-3 px-3 block menu-item list-menu rounded-3xs mx-4 my-3"
+      class="flex items-center justify-between py-3 px-3 block menu-item list-menu rounded-3xs m-4"
       :class="
         open || hasActive(vm)
           ? openClass
@@ -15,7 +15,9 @@
       @click.native="clicked(item, vm)"
     >
       <div
-        :class="active(vm) || hasActive(vm) ? 'font-color-third' : 'text-white'"
+        :class="
+          active(vm) || hasActive(vm) ? 'font-color-third' : 'text-gray-400'
+        "
         class="inline-block"
       >
         <svg-icon
@@ -28,13 +30,15 @@
         <svg-icon
           v-else-if="item.icon !== undefined || icon"
           :icon="icon ? icon : item.icon"
-          :class="active(vm) || hasActive(vm) ? ' h-6 w-6 mr-2' : iconClass"
+          :class="active(vm) || hasActive(vm) ? 'h-6 w-6 mr-2' : iconClass"
         />
       </div>
       <span
         :title="item.caption"
         class="m-2 flex-grow font-normal text-sm"
-        :class="active(vm) || hasActive(vm) ? 'font-color-third' : 'text-white'"
+        :class="
+          active(vm) || hasActive(vm) ? 'font-color-third' : 'text-gray-400'
+        "
         >{{ item.caption }}</span
       >
       <svg-icon
@@ -74,7 +78,7 @@ export default {
     },
     iconClass: {
       type: String,
-      default: 'h-6 w-6 mr-2',
+      default: 'h-6 w-6 mr-2 text-gray-400',
     },
   },
   data() {
@@ -127,11 +131,6 @@ export default {
         vm.open = !vm.open
       } else {
         vm.$emit('click')
-        sessionStorage.removeItem('status')
-        sessionStorage.removeItem('category')
-        sessionStorage.removeItem('company')
-        sessionStorage.removeItem('limit')
-        sessionStorage.removeItem('offset')
       }
     },
   },
