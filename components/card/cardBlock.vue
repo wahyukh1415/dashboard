@@ -53,7 +53,7 @@
         <p class="label-xs mb-1">{{ tableBlockFirst[8].label }}</p>
         <h4 class="text-center">{{ tableBlockFirst[8].value }}</h4>
       </div>
-      <div class="h-full w-full md:w-2/12 border px-2 pb-2 pt-1 m-1">
+      <div class="h-full w-full md:w-2/12 border px-1 pb-2 pt-1 m-1">
         <p class="label-xs mb-1">{{ tableBlockFirst[9].label }}</p>
         <h4 class="text-center">{{ tableBlockFirst[9].value }}</h4>
       </div>
@@ -61,7 +61,7 @@
         <p class="label-xs mb-1">{{ tableBlockFirst[10].label }}</p>
         <h4 class="text-center">{{ tableBlockFirst[2].value }}</h4>
       </div>
-      <div class="h-full w-full md:w-2/12 border px-2 pb-2 pt-1 m-1">
+      <div class="h-full w-full md:w-2/12 border px-1 pb-2 pt-1 m-1">
         <p class="label-xs mb-1">{{ tableBlockFirst[11].label }}</p>
         <h4 class="text-center">{{ tableBlockFirst[11].value }}</h4>
       </div>
