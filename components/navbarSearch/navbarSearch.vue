@@ -54,9 +54,7 @@
             >
               <option class="text-xs" value="">DD/MM/YYYY</option>
             </select>
-            <button class="search my-1 w-full bg-gray-400 px-1 py-1.5">
-              OK
-            </button>
+            <button class="search my-1 w-full bg-gray-400 px-1 py-1">OK</button>
           </li>
         </ol>
       </nav>
